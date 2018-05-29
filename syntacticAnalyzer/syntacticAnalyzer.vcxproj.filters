@@ -21,15 +21,42 @@
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
+    <ClInclude Include="declaration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="eliminateLeftRecursion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="firstFollow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="predictingAnalysis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isLL1.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="syntacticAnalyzer.cpp">
+    <ClCompile Include="eliminateLeftRecursion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="arrayFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="firstFollow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="predictingAnalysis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isLL1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

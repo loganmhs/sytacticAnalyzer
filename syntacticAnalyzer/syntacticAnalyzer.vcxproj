@@ -145,17 +145,26 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="arrayFunction.h" />
+    <ClInclude Include="declaration.h" />
+    <ClInclude Include="eliminateLeftRecursion.h" />
+    <ClInclude Include="firstFollow.h" />
+    <ClInclude Include="isLL1.h" />
+    <ClInclude Include="predictingAnalysis.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="arrayFunction.cpp" />
+    <ClCompile Include="eliminateLeftRecursion.cpp" />
+    <ClCompile Include="firstFollow.cpp" />
+    <ClCompile Include="isLL1.cpp" />
+    <ClCompile Include="main.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="syntacticAnalyzer.cpp" />
+    <ClCompile Include="predictingAnalysis.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
